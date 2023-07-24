@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(135deg, #8116ac, #040c73);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading{
+  margin-top: -75px;
+  font-size: 12px;
+  position: relative;
+  color: #ffffff;
+}
+
+@keyframes pulsate {
+  0% {opacity: 1;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
+.heading span {
+  color: #ff4400;
+  text-decoration: underline;
+  animation: pulsate 2s infinite;
+}
